@@ -2,6 +2,9 @@
     local LocalPlayer = Players.LocalPlayer
     for i,v in (LocalPlayer:GetDescendants()) do
     if v.Name ~= "SHIYAGUIGAMEPASSES" then
+    local WorkedDONTTOUCH = Instance.new("IntValue")
+    local trail = Instance.new("IntValue")
+    local Dances = Instance.new("IntValue")
     WorkedDONTTOUCH.Name = "SHIYAGUIGAMEPASSES"
     WorkedDONTTOUCH.Parent = LocalPlayer.HavePasses
     Dances.Name = "Пак танцев"
