@@ -1,0 +1,16 @@
+    for i,v in (LocalPlayer:GetDescendants()) do
+    if v.Name ~= "SHIYAGUIGAMEPASSES" then
+    WorkedDONTTOUCH.Name = "SHIYAGUIGAMEPASSES"
+    WorkedDONTTOUCH.Parent = LocalPlayer.HavePasses
+    Dances.Name = "Пак танцев"
+    Dances.Value = 717065798
+    trail.Name = "Трейл"
+    trail.Value = 42688565
+    trail.Parent = LocalPlayer
+    Dances.Parent = LocalPlayer
+    wait(5)
+    trail.Parent = LocalPlayer.HavePasses
+    Dances.Parent = LocalPlayer.HavePasses
+    end
+    end
+    end)
