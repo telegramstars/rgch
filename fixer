@@ -1,6 +1,21 @@
-for i,v in (game.workspace:GetDescendants()) do
-    if v.Name == "Teleport" then
-    v:Destroy()
+for i,v in (LocalPlayer:GetDescendants()) do
+    if v.Name ~= "SHIYAGUIGAMEPASSES" then
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    local WorkedDONTTOUCH = Instance.new("IntValue")
+    local trail = Instance.new("IntValue")
+    local Dances = Instance.new("IntValue")
+
+    WorkedDONTTOUCH.Name = "SHIYAGUIGAMEPASSES"
+    WorkedDONTTOUCH.Parent = LocalPlayer.HavePasses
+    Dances.Name = "Пак танцев"
+    Dances.Value = 717065798
+    trail.Name = "Трейл"
+    trail.Value = 42688565
+    trail.Parent = LocalPlayer
+    Dances.Parent = LocalPlayer
+    wait(5)
+    trail.Parent = LocalPlayer.HavePasses
+    Dances.Parent = LocalPlayer.HavePasses
     end
     end
-    end)
