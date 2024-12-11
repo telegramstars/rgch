@@ -13,4 +13,3 @@
     Dances.Parent = LocalPlayer.HavePasses
     end
     end
-    end)
