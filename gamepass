@@ -1,3 +1,5 @@
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
     for i,v in (LocalPlayer:GetDescendants()) do
     if v.Name ~= "SHIYAGUIGAMEPASSES" then
     WorkedDONTTOUCH.Name = "SHIYAGUIGAMEPASSES"
